@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
+
 function IndividualTherapy() {
   return (
     <main className="inner-page-padding">
       <div className="container">
+        <Link to="/services" className="back-to-blog-link">
+          &larr; Back to All Services
+        </Link>
         <div className="service-single-layout">
           <div className="service-single-content">
             <span className="section-label">Service</span>

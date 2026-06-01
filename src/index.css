@@ -1467,6 +1467,14 @@ body {
     gap: 40px;
   }
 
+  .service-single-sidebar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   .services-hub-grid {
     grid-template-columns: 1fr;
     gap: 24px;
@@ -1481,6 +1489,19 @@ body {
   .map-container {
     flex: none;
     height: 240px;
+  }
+
+  .map-container,
+  .contact-map {
+    width: 100% !important;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .contact-sidebar .sidebar-card {
+    width: 100%;
+    max-width: 450px;
+    text-align: left;
   }
 
   .contact-map {
